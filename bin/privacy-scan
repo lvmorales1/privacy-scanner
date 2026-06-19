@@ -3,7 +3,25 @@
 
 declare(strict_types=1);
 
-require dirname(__DIR__, 3) . '/autoload.php';
+$candidates = [
+    dirname(__DIR__) . '/vendor/autoload.php',
+    dirname(__DIR__, 3) . '/autoload.php',
+];
+
+$loaded = false;
+
+foreach ($candidates as $autoload) {
+    if (file_exists($autoload)) {
+        require $autoload;
+        $loaded = true;
+        break;
+    }
+}
+
+if (! $loaded) {
+    fwrite(STDERR, "Unable to locate Composer autoloader.\n");
+    exit(1);
+}
 
 use Lvmorales1\PrivacyScanner\Commands\ScanCommand;
 use Symfony\Component\Console\Application;
