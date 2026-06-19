@@ -48,3 +48,9 @@ final class MyTokenRule extends AbstractRule
     protected function getPattern(): string    { return '/mytoken_[A-Za-z0-9]{32}/'; }
 }
 ```
+
+## Tests
+
+```bash
+./vendor/bin/phpunit
+```
