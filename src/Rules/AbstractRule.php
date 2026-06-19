@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace PrivacyScanner\Rules;
+namespace Lvmorales1\PrivacyScanner\Rules;
 
-use PrivacyScanner\Enums\FindingType;
-use PrivacyScanner\Enums\Severity;
-use PrivacyScanner\Finding;
+use Lvmorales1\PrivacyScanner\Enums\FindingType;
+use Lvmorales1\PrivacyScanner\Enums\Severity;
+use Lvmorales1\PrivacyScanner\Finding;
 
 abstract class AbstractRule implements RuleInterface
 {

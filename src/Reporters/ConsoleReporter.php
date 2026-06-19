@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace PrivacyScanner\Reporters;
+namespace Lvmorales1\PrivacyScanner\Reporters;
 
-use PrivacyScanner\Enums\Severity;
-use PrivacyScanner\Finding;
-use PrivacyScanner\Scanner\ScanResult;
+use Lvmorales1\PrivacyScanner\Enums\Severity;
+use Lvmorales1\PrivacyScanner\Finding;
+use Lvmorales1\PrivacyScanner\Scanner\ScanResult;
 use Symfony\Component\Console\Output\OutputInterface;
 
 final class ConsoleReporter implements ReporterInterface

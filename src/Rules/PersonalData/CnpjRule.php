@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace PrivacyScanner\Rules\PersonalData;
+namespace Lvmorales1\PrivacyScanner\Rules\PersonalData;
 
-use PrivacyScanner\Enums\FindingType;
-use PrivacyScanner\Rules\AbstractRule;
+use Lvmorales1\PrivacyScanner\Enums\FindingType;
+use Lvmorales1\PrivacyScanner\Rules\AbstractRule;
 
 final class CnpjRule extends AbstractRule
 {

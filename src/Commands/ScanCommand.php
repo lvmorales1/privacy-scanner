@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace PrivacyScanner\Commands;
+namespace Lvmorales1\PrivacyScanner\Commands;
 
-use PrivacyScanner\Detectors\PersonalDataDetector;
-use PrivacyScanner\Detectors\SecretDetector;
-use PrivacyScanner\Reporters\ConsoleReporter;
-use PrivacyScanner\Reporters\JsonReporter;
-use PrivacyScanner\Reporters\ReporterInterface;
-use PrivacyScanner\Scanner\FileScanner;
+use Lvmorales1\PrivacyScanner\Detectors\PersonalDataDetector;
+use Lvmorales1\PrivacyScanner\Detectors\SecretDetector;
+use Lvmorales1\PrivacyScanner\Reporters\ConsoleReporter;
+use Lvmorales1\PrivacyScanner\Reporters\JsonReporter;
+use Lvmorales1\PrivacyScanner\Reporters\ReporterInterface;
+use Lvmorales1\PrivacyScanner\Scanner\FileScanner;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;

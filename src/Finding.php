@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace PrivacyScanner;
+namespace Lvmorales1\PrivacyScanner;
 
-use PrivacyScanner\Enums\FindingType;
-use PrivacyScanner\Enums\Severity;
+use Lvmorales1\PrivacyScanner\Enums\FindingType;
+use Lvmorales1\PrivacyScanner\Enums\Severity;
 
 final class Finding
 {

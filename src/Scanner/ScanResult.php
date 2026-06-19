@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace PrivacyScanner\Scanner;
+namespace Lvmorales1\PrivacyScanner\Scanner;
 
-use PrivacyScanner\Finding;
+use Lvmorales1\PrivacyScanner\Finding;
 
 final class ScanResult
 {

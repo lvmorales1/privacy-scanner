@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PrivacyScanner\Enums;
+namespace Lvmorales1\PrivacyScanner\Enums;
 
 enum FindingType: string
 {

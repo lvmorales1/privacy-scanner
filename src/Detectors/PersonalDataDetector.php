@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace PrivacyScanner\Detectors;
+namespace Lvmorales1\PrivacyScanner\Detectors;
 
-use PrivacyScanner\Rules\PersonalData\BrazilianPhoneRule;
-use PrivacyScanner\Rules\PersonalData\CnpjRule;
-use PrivacyScanner\Rules\PersonalData\CpfRule;
-use PrivacyScanner\Rules\PersonalData\EmailRule;
-use PrivacyScanner\Rules\RuleInterface;
+use Lvmorales1\PrivacyScanner\Rules\PersonalData\BrazilianPhoneRule;
+use Lvmorales1\PrivacyScanner\Rules\PersonalData\CnpjRule;
+use Lvmorales1\PrivacyScanner\Rules\PersonalData\CpfRule;
+use Lvmorales1\PrivacyScanner\Rules\PersonalData\EmailRule;
+use Lvmorales1\PrivacyScanner\Rules\RuleInterface;
 
 final class PersonalDataDetector implements DetectorInterface
 {

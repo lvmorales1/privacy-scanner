@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace PrivacyScanner\Rules\Secrets;
+namespace Lvmorales1\PrivacyScanner\Rules\Secrets;
 
-use PrivacyScanner\Enums\FindingType;
-use PrivacyScanner\Rules\AbstractRule;
+use Lvmorales1\PrivacyScanner\Enums\FindingType;
+use Lvmorales1\PrivacyScanner\Rules\AbstractRule;
 
 final class DatabaseUrlRule extends AbstractRule
 {

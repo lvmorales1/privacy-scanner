@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace PrivacyScanner\Detectors;
+namespace Lvmorales1\PrivacyScanner\Detectors;
 
-use PrivacyScanner\Rules\RuleInterface;
-use PrivacyScanner\Rules\Secrets\AwsKeyRule;
-use PrivacyScanner\Rules\Secrets\DatabaseUrlRule;
-use PrivacyScanner\Rules\Secrets\GithubTokenRule;
-use PrivacyScanner\Rules\Secrets\JwtRule;
-use PrivacyScanner\Rules\Secrets\OpenAiKeyRule;
-use PrivacyScanner\Rules\Secrets\SshPrivateKeyRule;
-use PrivacyScanner\Rules\Secrets\StripeKeyRule;
+use Lvmorales1\PrivacyScanner\Rules\RuleInterface;
+use Lvmorales1\PrivacyScanner\Rules\Secrets\AwsKeyRule;
+use Lvmorales1\PrivacyScanner\Rules\Secrets\DatabaseUrlRule;
+use Lvmorales1\PrivacyScanner\Rules\Secrets\GithubTokenRule;
+use Lvmorales1\PrivacyScanner\Rules\Secrets\JwtRule;
+use Lvmorales1\PrivacyScanner\Rules\Secrets\OpenAiKeyRule;
+use Lvmorales1\PrivacyScanner\Rules\Secrets\SshPrivateKeyRule;
+use Lvmorales1\PrivacyScanner\Rules\Secrets\StripeKeyRule;
 
 final class SecretDetector implements DetectorInterface
 {

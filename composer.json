@@ -1,7 +1,7 @@
 {
-    "name": "privacy-scanner/privacy-scanner",
+    "name": "lvmorales1/privacy-scanner",
     "description": "Scan files and git repositories for secrets and personal data leaks",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "require": {
         "php": "^8.1",
@@ -13,12 +13,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PrivacyScanner\\": "src/"
+            "Lvmorales1\\PrivacyScanner\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PrivacyScanner\\Tests\\": "tests/"
+            "Lvmorales1\\PrivacyScanner\\Tests\\": "tests/"
         }
     },
     "bin": [

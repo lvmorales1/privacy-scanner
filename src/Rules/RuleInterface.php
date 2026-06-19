@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace PrivacyScanner\Rules;
+namespace Lvmorales1\PrivacyScanner\Rules;
 
-use PrivacyScanner\Finding;
+use Lvmorales1\PrivacyScanner\Finding;
 
 interface RuleInterface
 {

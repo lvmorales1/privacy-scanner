@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace PrivacyScanner\Detectors;
+namespace Lvmorales1\PrivacyScanner\Detectors;
 
-use PrivacyScanner\Finding;
+use Lvmorales1\PrivacyScanner\Finding;
 
 interface DetectorInterface
 {

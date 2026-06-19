@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace PrivacyScanner\Scanner;
+namespace Lvmorales1\PrivacyScanner\Scanner;
 
-use PrivacyScanner\Detectors\DetectorInterface;
+use Lvmorales1\PrivacyScanner\Detectors\DetectorInterface;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Finder\SplFileInfo;
 

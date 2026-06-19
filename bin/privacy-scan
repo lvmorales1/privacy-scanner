@@ -5,10 +5,10 @@ declare(strict_types=1);
 
 require dirname(__DIR__) . '/vendor/autoload.php';
 
-use PrivacyScanner\Commands\ScanCommand;
+use Lvmorales1\PrivacyScanner\Commands\ScanCommand;
 use Symfony\Component\Console\Application;
 
-$app = new Application('Privacy Scanner', '1.0.0');
+$app = new Application('Privacy Scanner');
 $app->addCommand(new ScanCommand());
 $app->setDefaultCommand('scan', true);
 $app->run();
