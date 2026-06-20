@@ -76,6 +76,31 @@ Both thresholds must be met for a finding to trigger exit `1`. For example, to o
 }
 ```
 
+## Rules
+
+Severity is derived from the risk score: **LOW** 1–3 · **MEDIUM** 4–5 · **HIGH** 6–7 · **CRITICAL** 8–10
+
+### Secrets
+
+| Rule | Category | Score | Severity |
+|---|---|---|---|
+| SSH Private Key | `ssh_private_key` | 10 | CRITICAL |
+| AWS Access Key | `aws_key` | 9 | CRITICAL |
+| Stripe Live Key | `stripe_key` | 9 | CRITICAL |
+| Database Connection URL | `database_url` | 8 | CRITICAL |
+| GitHub Token | `github_token` | 8 | CRITICAL |
+| OpenAI API Key | `openai_key` | 8 | CRITICAL |
+| JSON Web Token | `jwt` | 7 | HIGH |
+
+### Personal Data
+
+| Rule | Category | Score | Severity |
+|---|---|---|---|
+| CPF (Brazilian Tax ID) | `cpf` | 6 | HIGH |
+| CNPJ (Brazilian Company ID) | `cnpj` | 5 | MEDIUM |
+| Brazilian Phone Number | `phone_br` | 4 | MEDIUM |
+| Email Address | `email` | 3 | LOW |
+
 ## Adding a new rule
 
 Create a class in `src/Rules/Secrets/` or `src/Rules/PersonalData/`, extend `AbstractRule`, and register it in the corresponding detector.
