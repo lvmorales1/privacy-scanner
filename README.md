@@ -21,17 +21,17 @@ composer install
 When installed as a dependency:
 
 ```bash
-./vendor/bin/privacy-scan scan .
-./vendor/bin/privacy-scan scan config/services.php
-./vendor/bin/privacy-scan scan . --format=json
+./vendor/bin/privacy-scan .
+./vendor/bin/privacy-scan config/services.php
+./vendor/bin/privacy-scan . --format=json
 ```
 
 When running standalone:
 
 ```bash
-php bin/privacy-scan scan .
-php bin/privacy-scan scan config/services.php
-php bin/privacy-scan scan . --format=json
+php bin/privacy-scan .
+php bin/privacy-scan config/services.php
+php bin/privacy-scan . --format=json
 ```
 
 ## Example output
